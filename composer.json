@@ -1,40 +1,46 @@
 {
-    "name":"kollmeier/dma_elementgenerator",
-    "description":"Eigene Elemente in Contao erstellen",
-    "keywords":["elements", "modules", "layout", "content", "contao"],
-    "type":"contao-module",
-    "license":"LGPL-3.0+",
-    "authors":[
+    "name": "kollmeier/dma_elementgenerator",
+    "description": "Eigene Elemente in Contao erstellen",
+    "keywords": [
+        "elements",
+        "modules",
+        "layout",
+        "content",
+        "contao"
+    ],
+    "type": "contao-module",
+    "license": "LGPL-3.0+",
+    "authors": [
         {
-            "name":"Janosch Skuplik",
-            "email":"skuplik@dma.do",
-            "homepage":"http://dma.do",
-            "role":"Project Leader"
-        }
+            "name": "Janosch Skuplik",
+            "email": "skuplik@dma.do",
+            "homepage": "http://dma.do",
+            "role": "Project Leader"
+        },
         {
-            "name":"Carsten Kollmeier",
-            "email":"carsten@ckollmeier.de",
-            "homepage":"http://www.oroe.de",
-            "role":"Developer"
+            "name": "Carsten Kollmeier",
+            "email": "carsten@ckollmeier.de",
+            "homepage": "http://www.oroe.de",
+            "role": "Developer"
         }
     ],
-    "support":{
-        "email":"carsten@ckollmeier.de",
-        "issues":"https://github.com/kollmeier/dma_elementgenerator/issues",
-        "source":"https://github.com/nkollmeier/dma_elementgenerator"
+    "support": {
+        "email": "carsten@ckollmeier.de",
+        "issues": "https://github.com/kollmeier/dma_elementgenerator/issues",
+        "source": "https://github.com/nkollmeier/dma_elementgenerator"
     },
-    "require":{
-        "php":">=5.3.4",
-        "contao/core":">=3.0,<3.3",
+    "require": {
+        "php": ">=5.3.4",
+        "contao/core": ">=3.0,<3.3"
     },
-    "extra":{
+    "extra": {
         "contao": {
-            "sources":{
+            "sources": {
                 "src/dma_elementgenerator": "system/modules/dma_elementgenerator"
             }
         }
-    }
+    },
     "branch-alias": {
-      "dev-composer": "1.0.0-dev"
+        "dev-composer": "1.0.0-dev"
     }
 }
