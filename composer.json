@@ -1,0 +1,37 @@
+{
+    "name":"kollmeier/dma_elementgenerator",
+    "description":"Eigene Elemente in Contao erstellen",
+    "keywords":["elements", "modules", "layout", "content", "contao"],
+    "type":"contao-module",
+    "license":"LGPL-3.0+",
+    "authors":[
+        {
+            "name":"Janosch Skuplik",
+            "email":"skuplik@dma.do",
+            "homepage":"http://dma.do",
+            "role":"Project Leader"
+        }
+        {
+            "name":"Carsten Kollmeier",
+            "email":"carsten@ckollmeier.de",
+            "homepage":"http://www.oroe.de",
+            "role":"Developer"
+        }
+    ],
+    "support":{
+        "email":"carsten@ckollmeier.de",
+        "issues":"https://github.com/kollmeier/dma_elementgenerator/issues",
+        "source":"https://github.com/nkollmeier/dma_elementgenerator"
+    },
+    "require":{
+        "php":">=5.3.4",
+        "contao/core":">=3.0,<3.3",
+    },
+    "extra":{
+        "contao": {
+            "sources":{
+                "src/dma_elementgenerator": "system/modules/dma_elementgenerator"
+            }
+        }
+    }
+}
