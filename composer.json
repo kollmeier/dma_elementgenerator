@@ -34,4 +34,7 @@
             }
         }
     }
+    "branch-alias": {
+      "dev-composer": "1.0.0-dev"
+    }
 }
